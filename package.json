@@ -1,0 +1,32 @@
+{
+  "name": "grpc-microservice",
+  "version": "1.0.0",
+  "description": "grpc api",
+  "main": "index.js",
+  "scripts": {
+    "pb:gen": "./scripts/gen.sh greet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtellz/gRPC-microservice.git"
+  },
+  "keywords": [
+    "api",
+    "grpc",
+    "microservice",
+    "architecture"
+  ],
+  "author": "Diego Tellez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtellz/gRPC-microservice/issues"
+  },
+  "homepage": "https://github.com/dtellz/gRPC-microservice#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.7.3",
+    "google-protobuf": "^3.21.2"
+  },
+  "devDependencies": {
+    "grpc-tools": "^1.11.3"
+  }
+}
